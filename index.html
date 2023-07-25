@@ -19,7 +19,18 @@
       <img src="img/MedArtLogo.png" alt="MedArtLogo" class="Logo" />
       <!-- navigationHeader -->
       <nav class="navbar">
-        <a href="#" class="Ability">Наші послуги</a>
+        <div class="burger-menu">
+          <input id="menu-toggle" type="checkbox" />
+          <label class="menu-btn" for="menu-toggle">
+            <p><span class="Ability">Наші послуги</span></p>
+          </label>
+
+          <ul class="menubox">
+            <li><a class="menu-item" href="#">Link3</a></li>
+            <li><a class="menu-item" href="#">Link2</a></li>
+            <li><a class="menu-item" href="#">Link1</a></li>
+          </ul>
+        </div>
         <a href="#" class="About">Про MedArt</a>
         <a href="#" class="Doc">Лікарі MedArt</a>
         <a href="#" class="Time">Запис на прийом</a>
@@ -57,10 +68,13 @@
         </p>
       </div>
     </section>
+    <div class="div-color-blue"></div>
     <footer class="footer-section">
       <ul class="ul-footer list">
         <li class="list-footer">
-          <a class="link link-footer" href="">Політика конфіденційності</a>
+          <a class="link link-footer" href="policy.html">
+            Політика конфіденційності
+          </a>
         </li>
         <li class="list-footer">
           <a class="link link-footer" href="#">site map</a>
