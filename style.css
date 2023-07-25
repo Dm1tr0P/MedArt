@@ -8,7 +8,7 @@
   list-style: none;
 }
 .link {
-  text-transform: none;
+  text-decoration: none;
 }
 .Logo {
   width: 150px;
@@ -95,6 +95,7 @@
   margin-top: 50px;
   margin-left: 100px;
   width: 500px;
+  margin-bottom: 40px;
 }
 .footer-section {
   background-color: #dfefff;
@@ -126,4 +127,27 @@
 }
 .background-color-policy {
   background-color: #dfefff;
+}
+.map {
+  height: 400px;
+  width: 100%;
+}
+.map-div {
+  position: absolute;
+  z-index: 1;
+  background-color: #dfefff;
+  width: 300px;
+  height: 200px;
+  right: 0;
+}
+.ourLoc {
+  margin-left: 30px;
+}
+.ul-map {
+  text-align: center;
+  justify-content: center;
+}
+.link-map {
+  color: black;
+  margin: 10px;
 }
