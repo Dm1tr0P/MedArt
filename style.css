@@ -128,6 +128,9 @@
 .background-color-policy {
   background-color: #dfefff;
 }
+.policyHeader {
+  background-color: white;
+}
 .map {
   height: 400px;
   width: 100%;
