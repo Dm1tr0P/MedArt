@@ -14,7 +14,7 @@
   width: 150px;
   height: 70px;
   padding-bottom: 30px;
-  margin-top: 40px;
+  margin-top: 20px;
   margin-left: 50px;
 }
 
@@ -33,18 +33,21 @@
 .Ability {
   color: black;
   font-size: 24px;
+  margin-top: -40px;
   text-decoration: none;
 }
 
 .About {
   color: black;
   font-size: 24px;
+  margin-top: -40px;
   text-decoration: none;
 }
 
 .Doc {
   color: black;
   font-size: 24px;
+  margin-top: -40px;
   text-decoration: none;
 }
 
@@ -52,12 +55,14 @@
   margin-left: 300px;
   color: black;
   font-size: 24px;
+  margin-top: -40px;
   text-decoration: none;
 }
 
 .Info {
   color: black;
   font-size: 24px;
+  margin-top: -40px;
   text-decoration: none;
 }
 
