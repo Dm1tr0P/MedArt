@@ -15,7 +15,7 @@
   height: 70px;
   padding-bottom: 30px;
   margin-top: 20px;
-  margin-left: 50px;
+  margin-left: 40px;
 }
 
 .navbar {
@@ -26,25 +26,12 @@
   gap: 45px;
 }
 
-.leftMain {
-  gap: 70px;
+.navbar .active {
+  font-weight: bold;
+  text-decoration: underline;
 }
 
-.Ability {
-  color: black;
-  font-size: 24px;
-  margin-top: -40px;
-  text-decoration: none;
-}
-
-.About {
-  color: black;
-  font-size: 24px;
-  margin-top: -40px;
-  text-decoration: none;
-}
-
-.Doc {
+nav a {
   color: black;
   font-size: 24px;
   margin-top: -40px;
@@ -52,18 +39,8 @@
 }
 
 .Time {
-  margin-left: 300px;
-  color: black;
-  font-size: 24px;
+  margin-left: 350px;
   margin-top: -40px;
-  text-decoration: none;
-}
-
-.Info {
-  color: black;
-  font-size: 24px;
-  margin-top: -40px;
-  text-decoration: none;
 }
 
 .MainPhoto {
