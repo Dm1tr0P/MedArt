@@ -68,8 +68,9 @@
 
 .Slogan {
   position: absolute;
-  top: 450px;
+  top: 400px;
   left: 110px;
+  font-size: 36px;
   z-index: 1;
   color: white;
 }
