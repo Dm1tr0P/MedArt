@@ -23,6 +23,7 @@
   position: absolute;
   top: 90px;
   left: 250px;
+  margin: 0, auto;
   gap: 45px;
 }
 
@@ -137,22 +138,53 @@ nav a {
   color: black;
   margin: 10px;
 }
+/* SITE-MAP */
 .sitemapheder {
   background-color: white;
 }
-.background-color-sitemap {
+.site-map-body {
   background-color: #dfefff;
+}
+.background-color-sitemap {
+  margin-top: -20px;
+  height: 100%;
+  width: 100%;
 }
 .site-map {
   padding-left: 43px;
 }
-.table-sitemap {
-  width: 500px;
-  height: 400px;
-  border: 1px solid #0456b7;
-  border-collapse: collapse;
-  justify-content: center;
+.table-sitemap1 {
+  margin-left: 150px;
+  position: absolute;
+  margin-top: 45px;
+ font-size: 36px;
+ border-collapse: collapse;
 }
-tr {
-  border: 1px solid #0456b7;
+.table-sitemap1 tr {
+  border-bottom: 2px solid #0456b7;
+  border-top: 2px solid #0456b7;
+}
+.table-sitemap2 {
+  margin-left: 550px;
+  /* margin-top: -93px; */
+  font-size: 36px;
+  border-collapse: collapse;
+}
+.table-sitemap2 tr {
+  border-bottom: 2px solid #0456b7;
+  border-top: 2px solid #0456b7;
+}
+.table-sitemap3 {
+  margin-left: 1150px;
+  margin-top: -93px;
+  margin-bottom: 310px;
+  font-size: 36px;
+  border-collapse: collapse;
+}
+.table-sitemap3 tr {
+  border-bottom: 2px solid #0456b7;
+  border-top: 2px solid #0456b7;
+}
+.Request-Site-Map {
+  text-decoration: none;
 }
