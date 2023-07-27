@@ -156,3 +156,19 @@ nav a {
 tr {
   border: 1px solid #0456b7;
 }
+.div-about {
+  border: 3px solid #0456b7;
+  width: 200px;
+  height: auto;
+  text-align: center;
+}
+.fist-img {
+  width: 600px;
+  height: 400px;
+}
+.div-foto-text {
+  display: flex;
+}
+.div-texy-about {
+  text-align: center;
+}
