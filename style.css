@@ -137,3 +137,22 @@ nav a {
   color: black;
   margin: 10px;
 }
+.sitemapheder {
+  background-color: white;
+}
+.background-color-sitemap {
+  background-color: #dfefff;
+}
+.site-map {
+  padding-left: 43px;
+}
+.table-sitemap {
+  width: 500px;
+  height: 400px;
+  border: 1px solid #0456b7;
+  border-collapse: collapse;
+  justify-content: center;
+}
+tr {
+  border: 1px solid #0456b7;
+}
