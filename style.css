@@ -157,8 +157,8 @@ nav a {
   margin-left: 150px;
   position: absolute;
   margin-top: 45px;
- font-size: 36px;
- border-collapse: collapse;
+  font-size: 36px;
+  border-collapse: collapse;
 }
 .table-sitemap1 tr {
   border-bottom: 2px solid #0456b7;
@@ -195,12 +195,22 @@ nav a {
   text-align: center;
 }
 .fist-img {
-  width: 600px;
-  height: 400px;
+  width: 800px;
+  height: 600px;
+}
+.div-texy-about {
+  margin-left: 250px;
+  margin-top: 100px;
+}
+.text-about {
+  font-family: DM Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: -1.08px;
+  width: 335px;
 }
 .div-foto-text {
   display: flex;
-}
-.div-texy-about {
-  text-align: center;
 }
