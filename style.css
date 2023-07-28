@@ -24,7 +24,7 @@
   top: 90px;
   left: 250px;
   margin: 0, auto;
-  gap: 45px;
+  gap: 65px;
 }
 
 .navbar .active {
@@ -40,18 +40,18 @@ nav a {
 }
 
 .Time {
-  margin-left: 350px;
+  margin-left: 650px;
   margin-top: -40px;
 }
 
 .MainPhoto {
   width: 100%;
-  height: 450px;
+  height: 600px;
 }
 
 .Slogan {
   position: absolute;
-  top: 400px;
+  top: 500px;
   left: 110px;
   font-size: 36px;
   z-index: 1;
@@ -156,9 +156,9 @@ nav a {
   font-size: 32px;
 }
 .table-sitemap1 {
-  margin-left: 100px;
+  margin-left: 200px;
   position: absolute;
-  margin-top: 90px;
+  margin-top: 120px;
   font-size: 36px;
   border-collapse: collapse;
 }
@@ -167,9 +167,9 @@ nav a {
   border-top: 2px solid #0456b7;
 }
 .table-sitemap2 {
-  margin-left: 560px;
-  margin-top: 61px;
-  margin-bottom: 110px;
+  margin-left: 747px;
+  margin-top: 81px;
+  margin-bottom: 273px;
   font-size: 36px;
   border-collapse: collapse;
 }
@@ -181,9 +181,9 @@ nav a {
   border-bottom: 2px solid #0456b7;
 }
 .table-sitemap3 {
-  margin-left: 1150px;
+  margin-left: 1450px;
   position: absolute;
-  margin-top: 90px;
+  margin-top: 125px;
   margin-bottom: 310px;
   font-size: 36px;
   border-collapse: collapse;
@@ -241,28 +241,108 @@ nav a {
   display: flex;
   padding-left: 40px;
 }
+.about-our-services {
+  width: 506px;
+  height: 70px;
+  flex-shrink: 0;
+  color: #0456B7;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
 .button-click {
-  margin-left: 12px;
-  width: 200px;
+  margin-left: 50px;
+  margin-top: 40px;
+  width: 331px;
+  height: 67px;
+  font-size: 20px;
   border-radius: 50px;
   color: #0456b7;
-  border: 1px solid #0456b7;
+  border: 2px solid #0456b7;
+}
+.about-section3-titles {
+  display: flex;
+  margin-top: 62px;
+  gap: 260px;
+}
+.about-section3-texts {
+  display: flex;
+  gap: 230px;
+}
+.g-title {
+  width: 463px;
+  height: 57px;
+  color: #0456B7;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 .gynecology {
-  width: 400px;
-  font-size: 20px;
-  margin-top: 30px;
-  margin-left: 40px;
+  width: 458px;
+  height: 340px;
+  flex-shrink: 0;
+  color: #000;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-bottom: 3px solid #0456B7;
+}
+.d-title {
+  width: 390px;
+  height: 57px;
+  flex-shrink: 0;
+  color: #0456B7;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 .dantist {
-  width: 500px;
-  font-size: 20px;
-  margin-top: -395px;
-  margin-left: 520px;
+  width: 458px;
+  height: 640px;
+  flex-shrink: 0;
+  color: #000;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-bottom: 3px solid #0456B7;
+}
+.m-title {
+  width: 489px;
+  height: 57px;
+  flex-shrink: 0;
+  color: #0456B7;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 .massageP {
-  width: 400px;
-  font-size: 20px;
-  margin-top: -270px;
-  margin-left: 1070px;
+  width: 499px;
+  height: 400px;
+  flex-shrink: 0;
+  color: #000;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-bottom: 3px solid #0456B7;
 }
