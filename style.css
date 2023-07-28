@@ -218,6 +218,12 @@ nav a {
 }
 .box-button {
   display: flex;
+  padding-left: 40px;
 }
 .button-click {
+  margin-left: 12px;
+  width: 200px;
+  border-radius: 50px;
+  color: #0456b7;
+  border: 1px solid #0456b7;
 }
