@@ -245,3 +245,21 @@ nav a {
   color: #0456b7;
   border: 1px solid #0456b7;
 }
+.gynecology {
+  width: 400px;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+.dantist {
+  width: 500px;
+  font-size: 20px;
+  margin-top: -395px;
+  margin-left: 520px;
+}
+.massageP {
+  width: 400px;
+  font-size: 20px;
+  margin-top: -270px;
+  margin-left: 1070px;
+}
