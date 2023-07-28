@@ -156,9 +156,9 @@ nav a {
   font-size: 32px;
 }
 .table-sitemap1 {
-  margin-left: 150px;
+  margin-left: 100px;
   position: absolute;
-  margin-top: 45px;
+  margin-top: 135px;
   font-size: 36px;
   border-collapse: collapse;
 }
@@ -171,9 +171,12 @@ nav a {
   font-size: 36px;
   border-collapse: collapse;
 }
-.table-sitemap2 tr {
+.our-services {
   border-bottom: 2px solid #0456b7;
   border-top: 2px solid #0456b7;
+}
+.massage {
+  border-bottom: 2px solid #0456b7;
 }
 .table-sitemap3 {
   margin-left: 1150px;
@@ -188,10 +191,25 @@ nav a {
 }
 .Request-Site-Map {
   text-decoration: none;
+  border-top: none;
+}
+.service1 {
+  margin-left: 20px;
+  font-size: 28px;
+  text-decoration: none;
+}
+.service2 {
+  margin-left: 110px;
+  font-size: 28px;
+  text-decoration: none;
+}
+.service3 {
+  margin-left: 110px;
+  font-size: 28px;
+  text-decoration: none;
 }
 /* ABOUT */
 .div-about {
-  border: 3px solid #0456b7;
   width: 200px;
   height: auto;
   text-align: center;
@@ -220,4 +238,5 @@ nav a {
   display: flex;
 }
 .button-click {
+
 }
