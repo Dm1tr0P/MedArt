@@ -36,7 +36,7 @@
 .span-header {
   display: flex;
   gap: 65px;
-  margin-left: 250px;
+  margin-left: 300px;
 }
 .navbar {
   display: flex;
@@ -52,6 +52,32 @@ nav a {
   color: black;
   font-size: 24px;
   text-decoration: none;
+}
+
+#main_nav li {
+  z-index: 2;
+  display: flex;
+}
+
+#main_nav div {
+  display: none;
+  position: absolute;
+  background-color: #c3def9;
+  top: 60px;
+  left: 170px;
+  z-index: 1;
+  width: 500px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px #0456b7;
+}
+
+#main_nav li a:hover,
+#main_nav li ul a:hover {
+  color: #0456b7;
+}
+
+#main_nav li:hover div {
+  display: flex;
 }
 
 .MainPhoto {
