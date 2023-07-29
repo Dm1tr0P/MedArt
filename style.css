@@ -28,18 +28,19 @@
 .Logo {
   width: 150px;
   height: 70px;
-  padding-bottom: 30px;
-  margin-top: 20px;
-  margin-left: 40px;
 }
-
+.menu {
+  display: flex;
+  gap: 65px;
+}
+.span-header {
+  display: flex;
+  gap: 65px;
+  margin-left: 250px;
+}
 .navbar {
   display: flex;
-  position: absolute;
-  top: 90px;
-  left: 250px;
-  margin: 0, auto;
-  gap: 65px;
+  align-items: center;
 }
 
 .navbar .active {
@@ -50,13 +51,7 @@
 nav a {
   color: black;
   font-size: 24px;
-  margin-top: -40px;
   text-decoration: none;
-}
-
-.Time {
-  margin-left: 650px;
-  margin-top: -40px;
 }
 
 .MainPhoto {
