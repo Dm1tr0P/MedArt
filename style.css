@@ -11,6 +11,11 @@
 }
 .container-flex {
   display: flex;
+  gap: 80px;
+}
+.titele-about {
+  display: flex;
+  gap: 110px;
 }
 .list {
   list-style: none;
@@ -272,7 +277,6 @@ nav a {
   border: 2px solid #0456b7;
 }
 .about-section3-titles {
-  display: flex;
   margin-top: 62px;
 }
 .about-section3-texts {
