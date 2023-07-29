@@ -369,3 +369,69 @@ nav a {
   line-height: normal;
   border-bottom: 3px solid #0456b7;
 }
+/* DOCTORS  */
+.doc-img {
+  height: 500px;
+  width: 500px;
+}
+.doc-img1 {
+  height: 500px;
+  width: 400px;
+}
+.container-flex-doc {
+  display: flex;
+  gap: 300px;
+  justify-content: center;
+}
+
+#jurez li {
+  z-index: 2;
+}
+#jurez div {
+  display: none;
+  position: absolute;
+  background-color: #c3def9;
+  top: 640px;
+  left: 315px;
+  z-index: 1;
+  width: 400px;
+}
+#jurez li:hover div {
+  display: block;
+}
+
+#vanja li {
+  z-index: 2;
+}
+#vanja div {
+  display: none;
+  position: absolute;
+  background-color: #c3def9;
+  top: 640px;
+  left: 1015px;
+  z-index: 1;
+  width: 400px;
+}
+#vanja li:hover div {
+  display: block;
+}
+
+#dima li {
+  z-index: 2;
+}
+#dima div {
+  display: none;
+  position: absolute;
+  background-color: #c3def9;
+  top: 640px;
+  left: 1015px;
+  z-index: 1;
+  width: 400px;
+}
+#dima li:hover div {
+  display: block;
+}
+.kushnirenko {
+  display: flex;
+  justify-content: center; 
+}
