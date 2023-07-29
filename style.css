@@ -274,11 +274,9 @@ nav a {
 .about-section3-titles {
   display: flex;
   margin-top: 62px;
-  gap: 260px;
 }
 .about-section3-texts {
   display: flex;
-  gap: 230px;
 }
 .g-title {
   width: 463px;
