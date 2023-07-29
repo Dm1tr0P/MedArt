@@ -12,10 +12,12 @@
 .container-flex {
   display: flex;
   gap: 80px;
+  justify-content: center;
 }
 .titele-about {
   display: flex;
   gap: 110px;
+  justify-content: center;
 }
 .list {
   list-style: none;
@@ -276,12 +278,6 @@ nav a {
   color: #0456b7;
   border: 2px solid #0456b7;
 }
-.about-section3-titles {
-  margin-top: 62px;
-}
-.about-section3-texts {
-  display: flex;
-}
 .g-title {
   width: 463px;
   height: 57px;
@@ -296,7 +292,6 @@ nav a {
 .gynecology {
   width: 458px;
   height: 340px;
-  flex-shrink: 0;
   color: #000;
   text-align: center;
   font-family: Montserrat;
@@ -321,7 +316,6 @@ nav a {
 .dantist {
   width: 458px;
   height: 640px;
-  flex-shrink: 0;
   color: #000;
   text-align: center;
   font-family: Montserrat;
@@ -334,7 +328,6 @@ nav a {
 .m-title {
   width: 489px;
   height: 57px;
-  flex-shrink: 0;
   color: #0456b7;
   text-align: center;
   font-family: Montserrat;
@@ -346,7 +339,6 @@ nav a {
 .massageP {
   width: 499px;
   height: 400px;
-  flex-shrink: 0;
   color: #000;
   text-align: center;
   font-family: Montserrat;
