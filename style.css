@@ -366,7 +366,7 @@ nav a {
   height: 400px;
   color: #000;
   text-align: center;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
@@ -446,4 +446,12 @@ nav a {
 }
 ul h2 {
   cursor: pointer;
+}
+.h-gynecologyandurology {
+  text-align: center;
+}
+.box-div-doctors {
+  background-color: #c3def9;
+  width: 200px;
+  text-align: center;
 }
