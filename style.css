@@ -455,3 +455,52 @@ ul h2 {
   width: 200px;
   text-align: center;
 }
+.div-box-doctors {
+  display: flex;
+  gap: 130px;
+  justify-content: center;
+}
+.button-click-MedArt {
+  margin-left: 50px;
+  margin-top: 40px;
+  width: 331px;
+  height: 67px;
+  font-size: 20px;
+  border-radius: 50px;
+  color: #0456b7;
+  border: 2px solid #0456b7;
+}
+.box-div-medart {
+  background-color: #c3def9;
+  width: 300px;
+  text-align: center;
+  margin-left: 60px;
+}
+.list-doctors {
+  color: #0456b7;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+}
+.div-box-doctors-text {
+  background-color: #d9d9d9;
+  width: 500px;
+  height: 204px;
+  text-align: center;
+}
+.ul-div-box-doctors {
+  display: flex;
+  justify-content: center;
+  gap: 250px;
+  margin-top: 0;
+}
+.p-medart {
+  text-align: center;
+}
+.div-img-foto-medart {
+  display: flex;
+}
