@@ -50,24 +50,80 @@
         </div>
     <!-- Appointment -->
     <section class="section-form">
-    <form action=""></form>
+      <h2 class="h-modal">Записатися на прийом</h2>
+    <form class="modal-form">
+      <div class="form-container">
+         <label for="doctors" class="modal-form-field">лікар</label>
+        <select name="select">
+  <option value="value1">Белінська Ольга Олексіївна</option>
+  <option value="value2">Белінський Владислав Андрійович</option>
+  <option value="value3">Богач Юрій Григорович</option>
+  <option value="value4">Рожанский Дмитро Владиславович</option>
+  <option value="value5">Кушніренко Дмитро Олександрович</option>
+  <option value="value6">Солярик Ігор Францевич.</option>
+  <option value="value7">Яркович Іван Борисович</option>
+        </select>
+      </div>
+      <div class="form-container">
+        <label for="user-name" class="modal-form-field">Ім’я</label>
+        <div class="modal-form-input-wrapper">
+        <input id="user-name" type="text" name="user-name" class="modal-form-input" required pattern="[a-zA-Zа-яА-Я]" minlength="2">
+        </div>
+      </div>
+      <div class="form-container">
+        <label for="user-name" class="modal-form-field">Прізвище</label>
+      <div class="modal-form-input-wrapper">
+        <input id="user-name" type="text" name="user-name" class="modal-form-input" required pattern="[a-zA-Zа-яА-Я]" minlength="2">
+        </div>
+      </div>
+      <div class="form-container">
+        <label for="user-name" class="modal-form-field">По-Батькові</label>
+      <div class="modal-form-input-wrapper">
+        <input id="user-name" type="text" name="user-name" class="modal-form-input" required pattern="[a-zA-Zа-яА-Я]" minlength="2">
+        </div>
+      </div>
+      <div class="form-container">
+        <label class="modal-form-field">Номер телефону</label>
+          <div class="modal-form-input-wrapper">
+            <input 
+            id="user-phone"
+            type="tel"
+            name="user-phone"
+            class="modal-form-input"
+            required
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+            >
+      </div>
+      </div>
+      <div class="form-container">
+        <label class="modal-form-field">Дата народження</label>
+          <div class="modal-form-input-wrapper">
+            <input 
+            type="date"
+            id="user-date"
+            name="user-date"
+            class="modal-form-input"
+            required
+            >
+          </div>
+          </div>
+          <div class="form-container">
+        <label class="modal-form-field">Email</label>
+          <div class="modal-form-input-wrapper">
+            <input
+            id="user-email"
+            type="email"
+            name="user-email"
+            class="modal-form-input"
+            required
+            pattern="[a-zA-Zа-яА-Я]"
+            >
+          </div>
+          </div>
+          <button type="submit" class="modal-form-submit">Записатися на прийом</button>
+    </form>
+    </div>
     </section>
     <!-- FOOTER -->
-    <div class="div-color-blue"></div>
-    <footer class="footer-section">
-      <ul class="ul-footer list">
-        <li class="list-footer">
-          <a class="link-footer" href="policy.html">
-            Політика конфіденційності
-          </a>
-        </li>
-        <li class="list-footer">
-          <a class="link-footer" href="./sitemap.html">site map</a>
-        </li>
-      </ul>
-      <p class="footer-text">
-        2007-2023 всі права захищені і належать клініці „MedArt”
-      </p>
-    </footer>
 </body>
 </html>

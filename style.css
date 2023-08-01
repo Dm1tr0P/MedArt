@@ -504,3 +504,24 @@ ul h2 {
 .div-img-foto-medart {
   display: flex;
 }
+.h-modal {
+  text-align: center;
+  color: #0456b7;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.modal-form {
+}
+.form-container {
+}
+.modal-form-field {
+}
+.modal-form-input-wrapper {
+}
+.modal-form-input {
+}
+.modal-form-submit {
+}
