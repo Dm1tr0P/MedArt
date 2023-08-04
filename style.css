@@ -578,3 +578,18 @@ ul h2 {
   height: 204px;
   text-align: center;
 }
+/* PHONE */
+
+@media screen and (max-width: 767px) {
+  .container {
+    width: 428px;
+  }
+}
+
+/* TABLET */
+
+@media screen and (max-width: 1157px) {
+  .container {
+    width: 768px;
+  }
+}
