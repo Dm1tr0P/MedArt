@@ -8,6 +8,10 @@
         width: 103px;
         height: 53px;
     }
+    /* Стилі для телефонної версії */
+    .burger-menu {
+      display: block; /* Спочатку ховаємо бургер меню */
+    }
   }
   
   /* TABLET */
