@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Ubuntu:wght@400;500;700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Ubuntu:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
   </head>
@@ -16,24 +16,28 @@
     <!-- HEADER -->
     <header>
       <div class="container">
-        <nav class="navbar">
-          <!-- Підключення jQuery (приклад) -->
-          <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <!-- Підключення jQuery (приклад) -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-          <script>
-              $(document).ready(function() {
-              // Приховуємо бургер меню на початку
-              $(".burger-menu").hide();
+        <script>
+          $(document).ready(function() {
+            // Приховуємо бургер меню на початку
+            $(".burger-menu").hide();
 
-              // При кліку на іконку бургер меню
-              $(".burger-icon").click(function() {
+            // При кліку на іконку бургер меню
+            $(".burger-icon").click(function() {
               // Змінюємо видимість бургер меню
               $(".burger-menu").slideToggle();
             });
           });
         </script>
+        <!-- HTML код для бургер меню -->
+        <div class="burger-menu">
+          <div class="burger-icon"></div>
+        </div>
+        <nav class="navbar">
           <a href="index.html"
-            ><img src="img/MedArtLogo.png" alt="MedArtLogo" class="Logo"
+          ><img src="img/MedArtLogo.png" alt="MedArtLogo" class="Logo"
           /></a>
           <ul class="list menu" id="main_nav">
             <li>
@@ -64,15 +68,6 @@
                 <a class="link" href="tel:+0673820388"> 067 382 0388 </a>
               </li>
             </span>
-            <!-- HTML код для бургер меню -->
-            <div class="burger-menu">
-              <div class="burger-icon"></div>
-            </div>
-
-            <!-- HTML код для основного меню (комп'ютерна версія) -->
-            <nav class="desktop-menu">
-              <!-- Ваші пункти меню тут -->
-            </nav>
           </ul>
         </nav>
       </div>

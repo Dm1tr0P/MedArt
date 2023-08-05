@@ -25,6 +25,43 @@
 .link {
   text-decoration: none;
 }
+/* .burger-menu {
+  display: none;
+} */
+/* Стилі для іконки бургер меню */
+.burger-icon {
+  width: 30px;
+  height: 20px;
+  position: relative;
+  cursor: pointer;
+}
+
+/* Стилі для рисочок бургер меню */
+.burger-icon::before,
+.burger-icon::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  background-color: #000; /* Колір рисочок */
+  left: 0;
+}
+
+/* Перша рисочка */
+.burger-icon::before {
+  top: 0;
+}
+
+/* Друга рисочка (центральна) */
+.burger-icon::after {
+  bottom: 0;
+}
+
+/* Третя рисочка */
+.burger-icon:hover::before,
+.burger-icon:hover::after {
+  background-color: #888; /* Колір рисочок при наведенні */
+}
 .Logo {
   width: 150px;
   height: 70px;
@@ -558,14 +595,4 @@ ul h2 {
   width: 600px;
   height: 204px;
   text-align: center;
-}
-
-/* Стилі для комп'ютерної версії */
-.desktop-menu {
-  display: none; /* або інший стиль, щоб відображати меню на комп'ютері */
-}
-
-/* Додаткові стилі для іконки бургер меню */
-.burger-icon {
-  /* Стилі для іконки бургер меню тут */
 }
